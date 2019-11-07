@@ -5,7 +5,17 @@
   "repository": "https://github.com/nutsa-k/backend.git",
   "author": "nutsa-k <a101113@aup.edu>",
   "license": "MIT",
+  "scripts": {
+    "start": "node bin/www",
+    "test": "mocha"
+  },
   "dependencies": {
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "mocha": "^6.2.2",
+    "morgan": "^1.9.1"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "supertest": "^4.0.2"
   }
 }
